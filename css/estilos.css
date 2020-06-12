@@ -68,7 +68,7 @@ body {
   background-color: #fff;
 }
 
-.navbar{
+.navbar, footer{
   background-color: #154360!important;
 }
 
@@ -80,6 +80,11 @@ body {
 
 header{
   background-color: #1ABC9C!important;
+  height: 340px;
+}
+
+.tituloHeader{
+
 }
 
 .navbar-brand{
