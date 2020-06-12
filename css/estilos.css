@@ -1,6 +1,7 @@
 .titulo-header{
     font-size: 20px;
     font-family: 'Anton', sans-serif;
+    color: gray;
   }
 
 @media (min-width: 700px) {
