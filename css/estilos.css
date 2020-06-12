@@ -1,23 +1,19 @@
 .titulo-header {
         font-size: 80px;
         font-family: 'Anton', sans-serif;
-        color: white;
     }
     header{
         height: 320px;
         background-color: #1ABC9C;
     }
 
-/*Desktop*/
+/* Mobile */
 @media (max-width: 700px) {
     header{
       height: 240px;
-      background-color: gray;
     }
 
     .titulo-header {
         font-size: 32px;
-        font-family: 'Anton', sans-serif;
-        color: green;
     }
 }
