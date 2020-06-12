@@ -1,6 +1,6 @@
-header {
+header{
     height: 240px;
-    background-color: #1ABC9C;
+    background-color: gray;
 }
 
 .titulo-header {
@@ -9,15 +9,15 @@ header {
     color: green;
 }
 
-/*Desktop*/
+/*Desktop
 @media (min-width: 700px) {
     .titulo-header {
         font-size: 80px;
         font-family: 'Anton', sans-serif;
         color: white;
     }
-    header {
+    header{
         height: 320px;
         background-color: #1ABC9C;
     }
-}
+}*/
