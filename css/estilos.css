@@ -82,9 +82,19 @@ header{
   background-color: #1ABC9C!important;
 }
 
+.brand{
+  font-size: 1.75em;
+}
+
+.subitutlo{
+      font-size: 1.5rem;
+}
+
 h1{
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  font-size: 4rem;
+  line-height: 3.5rem;
 }
 
 
