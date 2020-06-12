@@ -1,0 +1,11 @@
+.titulo-header{
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+  }
+
+@media (min-width: 700px) {
+  .titulo-header{
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+  }
+}
