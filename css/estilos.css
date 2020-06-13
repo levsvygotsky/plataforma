@@ -7,6 +7,10 @@
         background-color: #1ABC9C;
     }
 
+    .img-header{
+      width: 500px;
+    }
+
 /* Mobile */
 @media (max-width: 700px) {
     header{
@@ -15,5 +19,9 @@
 
     .titulo-header {
         font-size: 32px;
+    }
+
+    .img-header{
+      width: 200px;
     }
 }
