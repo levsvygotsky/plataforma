@@ -36,6 +36,10 @@ header {
       max-height: 1200px;
       overflow: hidden;
   }
+
+  .iframe-border {
+      border: none;
+  }
 }
 #Iframe-Liason-Sheet {
     max-width: 760px;
@@ -66,8 +70,9 @@ header {
 .responsive-wrapper-wxh-760x1200 {
     padding-bottom: 363.6364%;
 }
+
 .iframe-border {
-    border: 0px solid #000;
+    border: none;
 }
 .center-block-horiz {
     margin-left: auto !important;
