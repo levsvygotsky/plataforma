@@ -1,57 +1,57 @@
 .titulo-header {
-        font-size: 80px;
-        font-family: 'Anton', sans-serif;
-    }
-    header{
-        height: 320px;
-        background-color: #1ABC9C;
-    }
-
-    .img-header{
-      width: 500px;
-    }
-
-    .footer {
-      padding-top: 5rem;
-      padding-bottom: 5rem;
-      background-color: #2c3e50;
-      color: #fff;
-    }
-
-    .navbar-brand{
-      font-family: 'Anton', sans-serif;
-    }
-
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+}
+header {
+    height: 320px;
+    background-color: #1ABC9C;
+}
+.img-header {
+    width: 500px;
+}
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2c3e50;
+    color: #fff;
+}
+.navbar-brand {
+    font-family: 'Anton', sans-serif;
+}
 /* Mobile */
-@media (max-width: 700px) {
-    header{
-      height: 240px;
-    }
 
+@media (max-width: 700px) {
+    header {
+        height: 240px;
+    }
     .titulo-header {
         font-size: 32px;
     }
-
-    .img-header{
-      width: 200px;
+    .img-header {
+        width: 200px;
     }
+
+    #Iframe-Liason-Sheet {
+      max-width: 760px;
+      max-height: 1200px;
+      overflow: hidden;
+  }
 }
-
-
-
 #Iframe-Liason-Sheet {
     max-width: 760px;
     max-height: 1200px;
     overflow: hidden;
-    }
-    /* inner wrapper: make responsive */
-    .responsive-wrapper {
+}
+/* inner wrapper: make responsive */
+
+.responsive-wrapper {
     position: relative;
-    height: 0; /* gets height from padding-bottom setting */
+    height: 0;
+    /* gets height from padding-bottom setting */
     -webkit-overflow-scrolling: touch;
     overflow: auto;
-    }
-    .responsive-wrapper iframe {
+}
+.responsive-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -60,15 +60,16 @@
     margin: 0;
     padding: 0;
     border: none;
-    }
-    /* padding-bottom = h/w as a % */
-    .responsive-wrapper-wxh-760x1200 {
+}
+/* padding-bottom = h/w as a % */
+
+.responsive-wrapper-wxh-760x1200 {
     padding-bottom: 363.6364%;
-    }
-    .iframe-border {
+}
+.iframe-border {
     border: 1px solid #000;
-    }
-    .center-block-horiz {
+}
+.center-block-horiz {
     margin-left: auto !important;
     margin-right: auto !important;
-    }
+}
